@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* -----header-section----- */
+
+.header-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.heading-color{
+    color: orange;
+}
+
+.heading-div{
+    letter-spacing: 3px;
+    line-height: 28px;
+    word-spacing: 12px;
+}
+
+.paragraph{
+    font-size: 25px;
+    word-spacing: 6px;
+    margin-bottom: 50px;
+    font-weight: 200;
+}
+
+#main-content{
+    padding-top: 200px;
+}
+
+.content-div{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.content-div img{
+    width: 100%;
+}
+
+.oder-btn{
+    text-decoration: none;
+    background-image: linear-gradient(to right,tomato,orange);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 18px 48px;
+    border-radius: 35px;
+}
+
+/* -----about-section----- */
+
+#img-item{
+    padding-left: 130px;
+    width: 60%;
+}
+#contact-paragraph{
+    font-size: 21px;
+    word-spacing: 4px;
+    margin-bottom: 100px;
+    font-weight: 300;
+}
+
+#about-content{
+    padding-top: 70px;
+    padding-right: 130px;
+
+}
+
+#about-bg{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* -----food-details-part----- */
+
+#details{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.description{
+    text-align: center;
+    padding: 0% 25%;
+    display: block;
+}
+
+.main-card{
+    display: flex;
+    width: 90%;
+    padding-left: 5%;
+}
+
+.card{
+    /* margin: 0% 5%; */
+    /* margin-right: 6%; */
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px 20px 0px 20px;
+    width: 35%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+.card-one img{
+    width: 100%;
+}
+.card-text{
+    width: 100%;
+    text-align: center;
+}
+
+.para-content{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+.footer-content{
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    background-color: gray;
+}
+
+.footer-paragraph{
+    color: whitesmoke;
+}
